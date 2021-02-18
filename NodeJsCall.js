@@ -1,7 +1,7 @@
 
 const https = require('https');
  
-_EXTERNAL_URL = 'https://test-proj-heroku.herokuapp.com/api/plans';
+_EXTERNAL_URL = 'https://api.enterprise.apigee.com/v1/organizations/sidgs-hybrid/apps';
 
 
 const callExternalApiUsingHttp = (callback) => {
