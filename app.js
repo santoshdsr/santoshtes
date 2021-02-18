@@ -1,4 +1,4 @@
-//const apiCallFromRequest = require('./Request')
+const apiCallFromRequest = require('./Request')
 const apiCallFromNode = require('./NodeJsCall')
 
 const http = require('http')

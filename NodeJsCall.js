@@ -1,7 +1,7 @@
 
 const https = require('https');
  
-_EXTERNAL_URL = 'https://api.enterprise.apigee.com/v1/organizations/sidgs-hybrid/apps';
+_EXTERNAL_URL = 'https://tejandras-eval-test.apigee.net/basic_proxy';
 
 
 const callExternalApiUsingHttp = (callback) => {
