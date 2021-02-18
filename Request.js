@@ -1,6 +1,6 @@
 const request = require('request');
  
-_EXTERNAL_URL = 'https://tejandras-eval-test.apigee.net/basic_proxy';
+_EXTERNAL_URL = 'https://santoshd-eval-test.apigee.net/retail/v1';
 
 const callExternalApiUsingRequest = (callback) => {
     request(_EXTERNAL_URL, { json: true }, (err, res, body) => {
