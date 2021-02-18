@@ -17,6 +17,12 @@ http.createServer((req, res) => {
                 res.end();
             });
         }
+        const PDFDocument = require('pdfkit'); 
+        const fs = require('fs'); 
+        let pdfDoc = new PDFDocument; 
+        pdfDoc.pipe(fs.createWriteStream('response.pdf')); 
+        pdfDoc.text("response.pdf");
+        pdfDoc.end();
         
         // res.end();
 }).listen(3000);
