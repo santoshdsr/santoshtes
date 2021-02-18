@@ -1,7 +1,7 @@
 
 const https = require('https');
  
-_EXTERNAL_URL = 'https://tejandras-eval-test.apigee.net/basic_proxy';
+_EXTERNAL_URL = 'https://santoshd-eval-test.apigee.net/retail/v1';
 
 
 const callExternalApiUsingHttp = (callback) => {
